@@ -1,0 +1,5 @@
+﻿  ConsoleApplication1.cpp
+e:\jacek\jacek plik\wazne\programowanie\ołpen ży el\consoleapplication1\consoleapplication1\consoleapplication1.cpp(41): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\jacek\jacek plik\wazne\programowanie\ołpen ży el\consoleapplication1\consoleapplication1\consoleapplication1.cpp(50): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  ConsoleApplication1.vcxproj -> E:\Jacek\Jacek plik\WAZNE\programowanie\OŁPEN ŻY EL\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> E:\Jacek\Jacek plik\WAZNE\programowanie\OŁPEN ŻY EL\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)
