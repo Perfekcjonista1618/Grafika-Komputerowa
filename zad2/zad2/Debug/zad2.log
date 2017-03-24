@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  zad2.cpp
+e:\jacek\jacek plik\wazne\programowanie\ołpen ży el\zaj_02\zaj_02zad2\zad2\zad2\zad2.cpp(83): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\jacek\jacek plik\wazne\programowanie\ołpen ży el\zaj_02\zaj_02zad2\zad2\zad2\zad2.cpp(84): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\jacek\jacek plik\wazne\programowanie\ołpen ży el\zaj_02\zaj_02zad2\zad2\zad2\zad2.cpp(105): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\jacek\jacek plik\wazne\programowanie\ołpen ży el\zaj_02\zaj_02zad2\zad2\zad2\zad2.cpp(106): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  zad2.vcxproj -> E:\Jacek\Jacek plik\WAZNE\programowanie\OŁPEN ŻY EL\Zaj_02\zaj_02zad2\zad2\Debug\zad2.exe
+  zad2.vcxproj -> E:\Jacek\Jacek plik\WAZNE\programowanie\OŁPEN ŻY EL\Zaj_02\zaj_02zad2\zad2\Debug\zad2.pdb (Full PDB)
