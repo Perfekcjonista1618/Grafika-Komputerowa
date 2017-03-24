@@ -1,0 +1,5 @@
+﻿  zad1.cpp
+e:\jacek\jacek plik\wazne\programowanie\ołpen ży el\zaj_02\zaj_02zad2\zad1\zad1\zad1\zad1.cpp(43): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\jacek\jacek plik\wazne\programowanie\ołpen ży el\zaj_02\zaj_02zad2\zad1\zad1\zad1\zad1.cpp(44): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  zad1.vcxproj -> E:\Jacek\Jacek plik\WAZNE\programowanie\OŁPEN ŻY EL\Zaj_02\zaj_02zad2\zad1\zad1\Debug\zad1.exe
+  zad1.vcxproj -> E:\Jacek\Jacek plik\WAZNE\programowanie\OŁPEN ŻY EL\Zaj_02\zaj_02zad2\zad1\zad1\Debug\zad1.pdb (Full PDB)
