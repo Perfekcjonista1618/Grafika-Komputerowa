@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include "glext.h"
 
+
 // stałe do obsługi menu podręcznego
 
 enum
@@ -45,7 +46,7 @@ GLfloat scale = 1.05;
 // identyfikatory list wyświetlania
 
 GLint RECT_LIST;
-GLint TEXTURE_256_LIST, TEXTURE_128_LIST, TEXTURE_64_LIST;
+GLint TEXTURE_128_LIST, TEXTURE_64_LIST, TEXTURE_32_LIST;
 
 // filtr powiększający
 
@@ -94,9 +95,9 @@ void DisplayScene()
 		glTexParameteri(GL_TEXTURE_1D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
 
 	// wyświetlenie tekstur
-	glCallList(TEXTURE_256_LIST);
 	glCallList(TEXTURE_128_LIST);
 	glCallList(TEXTURE_64_LIST);
+	glCallList(TEXTURE_32_LIST);
 
 	// skierowanie poleceñ do wykonania
 	glFlush();
@@ -221,20 +222,20 @@ void GenerateDisplayLists()
 	// koniec listy wyświetlania
 	glEndList();
 
-	// sprawdzenie czy implementacja biblioteki obsługuje tekstury o wymiarze 256
+	// sprawdzenie czy implementacja biblioteki obsługuje tekstury o wymiarze 128
 	GLint size;
 	glGetIntegerv(GL_MAX_TEXTURE_SIZE, &size);
-	if (size < 256)
+	if (size < 128)
 	{
-		printf("Rozmiar tekstur mniejszy od 256");
+		printf("Rozmiar tekstur mniejszy od 128");
 		exit(0);
 	}
 
 	// dane tekstury
-	GLubyte texture[256 * 3];
+	GLubyte texture[128 * 3];
 
 	// przygotowanie danych tekstury RGB
-	for (int i = 0; i < 256; i++)
+	for (int i = 0; i < 128; i++)
 	{
 		texture[3 * i + 0] = i;
 		texture[3 * i + 1] = i;
@@ -242,13 +243,13 @@ void GenerateDisplayLists()
 	}
 
 	// generowanie identyfikatora listy wyświetlania
-	TEXTURE_256_LIST = glGenLists(1);
+	TEXTURE_128_LIST = glGenLists(1);
 
 	// lista wyświetlania - tekstura o szerokości 256 tekseli
-	glNewList(TEXTURE_256_LIST, GL_COMPILE);
+	glNewList(TEXTURE_128_LIST, GL_COMPILE);
 
 	// definiowanie tekstury
-	glTexImage1D(GL_TEXTURE_1D, 0, GL_RGB, 256, 0, GL_RGB, GL_UNSIGNED_BYTE, texture);
+	glTexImage1D(GL_TEXTURE_1D, 0, GL_RGB, 128, 0, GL_RGB, GL_UNSIGNED_BYTE, texture);
 
 	// odło¿enie macierzy modelowania na stos
 	glPushMatrix();
@@ -266,19 +267,19 @@ void GenerateDisplayLists()
 	glEndList();
 
 	//  przygotowanie danych tekstury LUMINANCE
-	for (int i = 0; i < 128; i++)
+	for (int i = 0; i < 64; i++)
 	{
 		texture[i] = i * 2;
 	}
 
 	// generowanie identyfikatora listy wyświetlania
-	TEXTURE_128_LIST = glGenLists(1);
+	TEXTURE_64_LIST = glGenLists(1);
 
 	// lista wyświetlania - tekstura o szerokości 128 tekseli
-	glNewList(TEXTURE_128_LIST, GL_COMPILE);
+	glNewList(TEXTURE_64_LIST, GL_COMPILE);
 
 	// definiowanie tekstury
-	glTexImage1D(GL_TEXTURE_1D, 0, GL_LUMINANCE, 128, 0, GL_LUMINANCE, GL_UNSIGNED_BYTE, texture);
+	glTexImage1D(GL_TEXTURE_1D, 0, GL_LUMINANCE, 64, 0, GL_LUMINANCE, GL_UNSIGNED_BYTE, texture);
 
 	// nało¿enie tekstury na prostokąt
 	glCallList(RECT_LIST);
@@ -287,19 +288,19 @@ void GenerateDisplayLists()
 	glEndList();
 
 	// przygotowanie danych tekstury INTENSITY
-	for (int i = 0; i < 64; i++)
+	for (int i = 0; i < 32; i++)
 	{
 		texture[3 * i] = i * 4;
 	}
 
 	// generowanie identyfikatora listy wyświetlania
-	TEXTURE_64_LIST = glGenLists(1);
+	TEXTURE_32_LIST = glGenLists(1);
 
 	// lista wyświetlania - tekstura o szerokości 64 tekseli
-	glNewList(TEXTURE_64_LIST, GL_COMPILE);
+	glNewList(TEXTURE_32_LIST, GL_COMPILE);
 
 	// definiowanie tekstury
-	glTexImage1D(GL_TEXTURE_1D, 0, GL_INTENSITY, 64, 0, GL_RGB, GL_UNSIGNED_BYTE, texture);
+	glTexImage1D(GL_TEXTURE_1D, 0, GL_INTENSITY, 32, 0, GL_RGB, GL_UNSIGNED_BYTE, texture);
 
 	// odło¿enie macierzy modelowania na stos
 	glPushMatrix();

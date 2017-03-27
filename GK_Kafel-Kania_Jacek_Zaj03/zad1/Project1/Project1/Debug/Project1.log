@@ -1,10 +1,10 @@
 ﻿  Source.cpp
-c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(43): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(146): warning C4305: '+=': truncation from 'double' to 'GLfloat'
-c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(151): warning C4305: '-=': truncation from 'double' to 'GLfloat'
-c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(212): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(214): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(216): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(218): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(44): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(147): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(152): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(213): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(215): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(217): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\jacek\documents\github\grafika-komputerowa\gk_kafel-kania_jacek_zaj03\zad1\project1\project1\source.cpp(219): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
   Project1.vcxproj -> C:\Users\Jacek\Documents\GitHub\Grafika-Komputerowa\GK_Kafel-Kania_Jacek_Zaj03\zad1\Project1\Debug\Project1.exe
   Project1.vcxproj -> C:\Users\Jacek\Documents\GitHub\Grafika-Komputerowa\GK_Kafel-Kania_Jacek_Zaj03\zad1\Project1\Debug\Project1.pdb (Full PDB)

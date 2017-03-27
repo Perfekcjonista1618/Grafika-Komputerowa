@@ -520,7 +520,27 @@ void GenerateDisplayLists()
 	glNewList(WOOD_LIST, GL_COMPILE);
 
 	// seria trójkątów
-	glBegin(GL_TRIANGLES);
+	// seria trójkątów
+    glBegin(GL_TRIANGLES);
+
+    glTexCoord2f(0.4, 0.33);
+    glVertex3f(-0.8, -0.33, 1.001);
+
+    glTexCoord2f(0.6, 0.33);
+    glVertex3f(-0.2, -0.33, 1.001);
+
+    glTexCoord2f(0.6, 0.66);
+    glVertex3f(-0.2, 0.66, 1.001);
+
+    glTexCoord2f(0.4, 0.33);
+    glVertex3f(-0.8, -0.33, 1.001);
+
+    glTexCoord2f(0.6, 0.66);
+    glVertex3f(-0.2, 0.66, 1.001);
+
+    glTexCoord2f(0.4, 0.66);
+    glVertex3f(-0.8, 0.66, 1.001);
+    glEnd();
 
 	// przednia ściana
 	glTexCoord2f(0.0, 0.0);
