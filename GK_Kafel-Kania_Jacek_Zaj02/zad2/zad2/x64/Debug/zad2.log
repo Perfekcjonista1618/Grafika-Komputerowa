@@ -1,0 +1,7 @@
+﻿  zad2.cpp
+c:\users\jacek\documents\github\grafika-komputerowa\zad2\zad2\zad2.cpp(83): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\jacek\documents\github\grafika-komputerowa\zad2\zad2\zad2.cpp(84): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\jacek\documents\github\grafika-komputerowa\zad2\zad2\zad2.cpp(105): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\jacek\documents\github\grafika-komputerowa\zad2\zad2\zad2.cpp(106): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  zad2.vcxproj -> C:\Users\Jacek\Documents\GitHub\Grafika-Komputerowa\zad2\x64\Debug\zad2.exe
+  zad2.vcxproj -> C:\Users\Jacek\Documents\GitHub\Grafika-Komputerowa\zad2\x64\Debug\zad2.pdb (Full PDB)
