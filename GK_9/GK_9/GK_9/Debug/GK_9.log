@@ -1,0 +1,7 @@
+﻿  GK_9.cpp
+c:\users\jacek\documents\github\grafika-komputerowa\gk_9\gk_9\gk_9\gk_9.cpp(282): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\jacek\documents\github\grafika-komputerowa\gk_9\gk_9\gk_9\gk_9.cpp(284): warning C4244: '-=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\jacek\documents\github\grafika-komputerowa\gk_9\gk_9\gk_9\gk_9.cpp(293): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+c:\users\jacek\documents\github\grafika-komputerowa\gk_9\gk_9\gk_9\gk_9.cpp(297): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+  GK_9.vcxproj -> C:\Users\Jacek\Documents\GitHub\Grafika-Komputerowa\GK_9\GK_9\Debug\GK_9.exe
+  GK_9.vcxproj -> C:\Users\Jacek\Documents\GitHub\Grafika-Komputerowa\GK_9\GK_9\Debug\GK_9.pdb (Full PDB)
